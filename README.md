@@ -2,7 +2,7 @@
 
 This repository is the implementation of the paper [SEMI-SUPERVISED CLASSIFICATION WITH GRAPH CONVOLUTIONAL NETWORKS](https://arxiv.org/abs/1609.02907) by Kipf et al., ICLR 2017. 
 
-I've aimed to create a notebook that's easy to understand. It begins with a simple graph, explaining the GCN formula step by step. I implemented the GCN model using PyTorch (without relying on specific graph libraries like PyTorch Geometric, DGL, etc.) on the Cora dataset. Additionally, I replicated a section of the paper called "Node Embeddings With Random Weights" using the Zachary Karate Club dataset. The goal was to demonstrate how GCN can be a powerful tool for extracting features from nodes in a graph. You can check out the results in the figure below.
+I've aimed to create a notebook that's easy to understand. It begins with a simple graph, explaining the GCN formula step by step. I implemented the GCN model using [PyTorch](pytorch.org) (without relying on specific graph libraries like [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/), [DGL](https://www.dgl.ai), etc.) on the Cora dataset. Additionally, I replicated a section of the paper called "Node Embeddings With Random Weights" using the Zachary Karate Club dataset. The goal was to demonstrate how GCN can be a powerful tool for extracting features from nodes in a graph. You can check out the results in the figure below.
 
 Going ahead, I have also implemented all the variants of the GCN mentioned in the paper which are:
 - Single Parameter Model
